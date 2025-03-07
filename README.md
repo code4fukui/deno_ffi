@@ -1,6 +1,6 @@
 # Deno FFI test
 
-FFI for Deno
+A test of FFI (Foreign Function Interface) on Deno
 
 ```
 deno --allow-ffi example.js
