@@ -1,14 +1,4 @@
-export const dlext = () => {
-  const os = Deno.build.os;
-  // console.log(os)
-  if (os === "windows") {
-    return ".dll";
-  } else if (os === "darwin") { // macOS
-    return ".dylib";
-  } else { // Linux
-    return ".so";
-  }
-};
+import { dlext } from "./dlext.js";
 
 const lib = Deno.dlopen("./libadd" + dlext(), {
   add: { parameters: ["i32", "i32"], result: "i32" },
