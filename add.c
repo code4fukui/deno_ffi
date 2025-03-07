@@ -1,6 +1,6 @@
 #include <stdio.h>
+#include "deno_ffi.h"
 
-__attribute__((visibility("default")))
-int add(int a, int b) {
+EXPORT int add(int a, int b) {
     return a + b;
 }
