@@ -1,6 +1,6 @@
 # Deno FFI テスト
 
-Deno上でのFFI (Foreign Function Interface)のテストです。
+Deno上でのFFI (Foreign Function Interface)のテストです。C言語やSwiftで書かれた関数をDenoから呼び出すことができます。また、各OSに合わせた共有ライブラリの形式を自動的に使い分けられます。
 
 ## デモ
 ```
@@ -21,3 +21,5 @@ deno --allow-ffi example.js
 
 ## ライセンス
 MIT License
+
+Copyright (c) 2025 Taisuke Fukuno
