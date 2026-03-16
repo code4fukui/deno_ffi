@@ -40,6 +40,4 @@ gcc -shared -o add.dll -Wl,--out-implib,libmylib.a -fPIC add.c
 
 ## License
 
-MIT License
-
-Copyright (c) 2025 Taisuke Fukuno
+MIT License — see [LICENSE](LICENSE).
